@@ -26,9 +26,6 @@
             <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
         </dependency>
-
-        <!-- NUEVO: driver JDBC que permite a Java comunicarse con MySQL. -->
-        <!-- Gson ya no es necesario porque no guardaremos archivos JSON. -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
